@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:5.0
+    container_name: devinsight-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=devinsight
+    networks:
+      - devinsight-network
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: devinsight-server
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongodb:27017/devinsight
+      - LOG_LEVEL=info
+      # Add your API keys here or use .env file
+      # - GOOGLE_API_KEY=your_google_api_key
+      # - GOOGLE_CX_ID=your_google_custom_search_cx_id
+      # - STACK_EXCHANGE_KEY=your_stack_exchange_api_key
+      # - NEWS_API_KEY=your_news_api_key
+    depends_on:
+      - mongodb
+    networks:
+      - devinsight-network
+    command: npm run dev
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: devinsight-client
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - server
+    networks:
+      - devinsight-network
+    command: npm run dev
+
+networks:
+  devinsight-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

@@ -1,0 +1,42 @@
+{
+    "name": "devinsight-clone",
+    "version": "1.0.0",
+    "description": "A clone of DevInsight tech career content aggregator",
+    "scripts": {
+      "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+      "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+      "start:server": "cd server && npm start",
+      "start:client": "cd client && npm start",
+      "dev:server": "cd server && npm run dev",
+      "dev:client": "cd client && npm run dev",
+      "install:server": "cd server && npm install",
+      "install:client": "cd client && npm install",
+      "install:all": "npm install && npm run install:server && npm run install:client",
+      "build": "cd client && npm run build",
+      "seed": "cd server && node src/utils/seed.js",
+      "lint": "eslint ."
+    },
+    "dependencies": {
+      "concurrently": "^8.2.2"
+    },
+    "devDependencies": {
+      "eslint": "^8.52.0"
+    },
+    "engines": {
+      "node": ">=14.0.0",
+      "npm": ">=7.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/omkar142/devinsight-clone.git"
+    },
+    "keywords": [
+      "devinsight",
+      "content-aggregator",
+      "tech-careers",
+      "nextjs",
+      "express"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+  }
