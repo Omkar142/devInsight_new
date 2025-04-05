@@ -950,3 +950,35 @@ info: Content already exists: https://leetcode.com/discuss/career/1269475/help-r
 info: Content already exists: https://leetcode.com/discuss/compensation/6352275/Salesforce-vs-Intuit-or-Offer-Negotiation-or-Offer-Evaluation/ {"timestamp":"2025-04-05T18:00:50.871Z"}
 info: Content already exists: https://leetcode.com/discuss/interview-experience/821879/3-offers-amazon-l6-facebook-e5-apple-ict4-seattle-full-stack {"timestamp":"2025-04-05T18:00:50.873Z"}
 info: LeetCode content fetching completed {"timestamp":"2025-04-05T18:00:50.874Z"}
+info: Using fallback data due to API limits {"timestamp":"2025-04-05T18:07:16.875Z"}
+warn: Some documents already exist {"timestamp":"2025-04-05T18:07:16.880Z"}
+info: Running scheduled job: Fetching Reddit content {"timestamp":"2025-04-05T18:10:00.801Z"}
+info: Fetching Reddit content {"timestamp":"2025-04-05T18:10:00.802Z"}
+info: Content already exists: Are we going to have hiring freez and layoffs again due to trump tariffs ? {"timestamp":"2025-04-05T18:10:01.824Z"}
+info: Content already exists: How true is the COBOL shortage? {"timestamp":"2025-04-05T18:10:01.826Z"}
+info: Content already exists: name and shame: cockroach labs {"timestamp":"2025-04-05T18:10:01.829Z"}
+info: Content already exists: Leave my current recession-resistant job for Big Tech? {"timestamp":"2025-04-05T18:10:01.831Z"}
+info: Content already exists: Is AI coding overhyped, or am I just bad at using it? {"timestamp":"2025-04-05T18:10:01.833Z"}
+info: Content already exists: Does it actually help to create "fake" startups and list yourself as a CEO/CTO/Founder or...? {"timestamp":"2025-04-05T18:10:01.835Z"}
+info: Content already exists: Let's try this again - what's your "...and at this point I'm too afraid to ask" of our tech industry? {"timestamp":"2025-04-05T18:10:01.837Z"}
+info: Content already exists: How to prepare for internship discussion with HR given points? {"timestamp":"2025-04-05T18:10:01.839Z"}
+info: Content already exists: ML/AI PhD in my fourth year and feeling completely lost {"timestamp":"2025-04-05T18:10:01.841Z"}
+info: Content already exists: Difference between all the different types of Architects? {"timestamp":"2025-04-05T18:10:01.846Z"}
+info: Content already exists: Potential job loss {"timestamp":"2025-04-05T18:10:01.848Z"}
+info: Content already exists: How have hackathon benefit you? {"timestamp":"2025-04-05T18:10:01.851Z"}
+info: Content already exists: In a pickle... Let me know what y'all think. {"timestamp":"2025-04-05T18:10:01.853Z"}
+info: Content already exists: Feeling stuck in a low-paying dev market with an uncertain future - should I pivot or dig deeper into CS? {"timestamp":"2025-04-05T18:10:01.856Z"}
+info: Content already exists: Should I accept the offer for junior Technical Associate or Research Analyst as a fresher? {"timestamp":"2025-04-05T18:10:01.859Z"}
+info: Content already exists: How important is an environment conducive to growth? {"timestamp":"2025-04-05T18:10:01.862Z"}
+info: Content already exists: Thinking about learning an ERP system. {"timestamp":"2025-04-05T18:10:01.864Z"}
+info: Content already exists: The 24 Hour limitation per day on timesheets just got remove {"timestamp":"2025-04-05T18:10:01.866Z"}
+info: Content already exists: Reid Hoffman Quotes His Wife's Boyfriend {"timestamp":"2025-04-05T18:10:01.868Z"}
+info: Content already exists: Is this a typical situation in non-tech industries? {"timestamp":"2025-04-05T18:10:01.871Z"}
+info: Content already exists: How should I handle internally applying for another role in my company? Do I tell my manager? {"timestamp":"2025-04-05T18:10:01.875Z"}
+info: Content already exists: How to get a job if you don’t fit into a “box”? {"timestamp":"2025-04-05T18:10:01.877Z"}
+info: Content already exists: what was your “welcome to the big leagues” moment? {"timestamp":"2025-04-05T18:10:01.879Z"}
+info: Content already exists: CS Minor Employability {"timestamp":"2025-04-05T18:10:01.881Z"}
+info: Content already exists: Is Data Annotations Tech ID Verification Safe? {"timestamp":"2025-04-05T18:10:01.883Z"}
+info: Content already exists: Microsoft has released their own Agent mode so they've blocked VSCode-derived editors (like Cursor) from using MS extensions {"timestamp":"2025-04-05T18:10:02.440Z"}
+error: Error fetching Reddit content: Content validation failed: snippet: Path `snippet` is required. {"_message":"Content validation failed","errors":{"snippet":{"kind":"required","message":"Path `snippet` is required.","name":"ValidatorError","path":"snippet","properties":{"message":"Path `snippet` is required.","path":"snippet","type":"required","value":""},"value":""}},"stack":"ValidationError: Content validation failed: snippet: Path `snippet` is required.\n    at Document.invalidate (C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-04-05T18:10:02.447Z"}
+error: Error fetching Reddit content: Content validation failed: snippet: Path `snippet` is required. {"_message":"Content validation failed","errors":{"snippet":{"kind":"required","message":"Path `snippet` is required.","name":"ValidatorError","path":"snippet","properties":{"message":"Path `snippet` is required.","path":"snippet","type":"required","value":""},"value":""}},"stack":"ValidationError: Content validation failed: snippet: Path `snippet` is required.\n    at Document.invalidate (C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-04-05T18:10:02.447Z"}
