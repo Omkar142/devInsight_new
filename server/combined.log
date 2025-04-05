@@ -849,3 +849,104 @@ info: Using fallback data due to API limits {"timestamp":"2025-04-05T17:40:11.51
 warn: Some documents already exist {"timestamp":"2025-04-05T17:40:11.517Z"}
 info: Using fallback data due to API limits {"timestamp":"2025-04-05T17:40:16.032Z"}
 warn: Some documents already exist {"timestamp":"2025-04-05T17:40:16.046Z"}
+info: Using fallback data due to API limits {"timestamp":"2025-04-05T17:47:07.776Z"}
+warn: Some documents already exist {"timestamp":"2025-04-05T17:47:07.780Z"}
+info: Running scheduled job: Fetching Reddit content {"timestamp":"2025-04-05T17:50:00.507Z"}
+info: Fetching Reddit content {"timestamp":"2025-04-05T17:50:00.509Z"}
+info: Content already exists: Are we going to have hiring freez and layoffs again due to trump tariffs ? {"timestamp":"2025-04-05T17:50:02.088Z"}
+info: Content already exists: How true is the COBOL shortage? {"timestamp":"2025-04-05T17:50:02.090Z"}
+info: Content already exists: name and shame: cockroach labs {"timestamp":"2025-04-05T17:50:02.093Z"}
+info: Content already exists: Leave my current recession-resistant job for Big Tech? {"timestamp":"2025-04-05T17:50:02.095Z"}
+info: Content already exists: Is AI coding overhyped, or am I just bad at using it? {"timestamp":"2025-04-05T17:50:02.097Z"}
+info: Content already exists: Does it actually help to create "fake" startups and list yourself as a CEO/CTO/Founder or...? {"timestamp":"2025-04-05T17:50:02.100Z"}
+info: Content already exists: Let's try this again - what's your "...and at this point I'm too afraid to ask" of our tech industry? {"timestamp":"2025-04-05T17:50:02.102Z"}
+info: New Reddit content saved: How to prepare for internship discussion with HR given points? {"timestamp":"2025-04-05T17:50:02.112Z"}
+info: Content already exists: ML/AI PhD in my fourth year and feeling completely lost {"timestamp":"2025-04-05T17:50:02.115Z"}
+info: Content already exists: Difference between all the different types of Architects? {"timestamp":"2025-04-05T17:50:02.116Z"}
+info: Content already exists: Potential job loss {"timestamp":"2025-04-05T17:50:02.118Z"}
+info: Content already exists: How have hackathon benefit you? {"timestamp":"2025-04-05T17:50:02.121Z"}
+info: Content already exists: In a pickle... Let me know what y'all think. {"timestamp":"2025-04-05T17:50:02.123Z"}
+info: Content already exists: Feeling stuck in a low-paying dev market with an uncertain future - should I pivot or dig deeper into CS? {"timestamp":"2025-04-05T17:50:02.125Z"}
+info: New Reddit content saved: Reid Hoffman Quotes His Wife's Boyfriend {"timestamp":"2025-04-05T17:50:02.130Z"}
+info: Content already exists: Should I accept the offer for junior Technical Associate or Research Analyst as a fresher? {"timestamp":"2025-04-05T17:50:02.132Z"}
+info: Content already exists: How important is an environment conducive to growth? {"timestamp":"2025-04-05T17:50:02.134Z"}
+info: Content already exists: Thinking about learning an ERP system. {"timestamp":"2025-04-05T17:50:02.136Z"}
+info: Content already exists: The 24 Hour limitation per day on timesheets just got remove {"timestamp":"2025-04-05T17:50:02.138Z"}
+info: Content already exists: Is this a typical situation in non-tech industries? {"timestamp":"2025-04-05T17:50:02.140Z"}
+info: Content already exists: How should I handle internally applying for another role in my company? Do I tell my manager? {"timestamp":"2025-04-05T17:50:02.143Z"}
+info: Content already exists: How to get a job if you don’t fit into a “box”? {"timestamp":"2025-04-05T17:50:02.145Z"}
+info: Content already exists: what was your “welcome to the big leagues” moment? {"timestamp":"2025-04-05T17:50:02.147Z"}
+info: Content already exists: CS Minor Employability {"timestamp":"2025-04-05T17:50:02.149Z"}
+info: Content already exists: Is Data Annotations Tech ID Verification Safe? {"timestamp":"2025-04-05T17:50:02.151Z"}
+info: Content already exists: Microsoft has released their own Agent mode so they've blocked VSCode-derived editors (like Cursor) from using MS extensions {"timestamp":"2025-04-05T17:50:02.768Z"}
+error: Error fetching Reddit content: Content validation failed: snippet: Path `snippet` is required. {"_message":"Content validation failed","errors":{"snippet":{"kind":"required","message":"Path `snippet` is required.","name":"ValidatorError","path":"snippet","properties":{"message":"Path `snippet` is required.","path":"snippet","type":"required","value":""},"value":""}},"stack":"ValidationError: Content validation failed: snippet: Path `snippet` is required.\n    at Document.invalidate (C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-04-05T17:50:02.772Z"}
+error: Error fetching Reddit content: Content validation failed: snippet: Path `snippet` is required. {"_message":"Content validation failed","errors":{"snippet":{"kind":"required","message":"Path `snippet` is required.","name":"ValidatorError","path":"snippet","properties":{"message":"Path `snippet` is required.","path":"snippet","type":"required","value":""},"value":""}},"stack":"ValidationError: Content validation failed: snippet: Path `snippet` is required.\n    at Document.invalidate (C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3219:32)\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\document.js:3012:17\n    at C:\\Users\\omkar\\techsite\\techsite\\server\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-04-05T17:50:02.774Z"}
+info: Using fallback data due to API limits {"timestamp":"2025-04-05T17:53:05.653Z"}
+warn: Some documents already exist {"timestamp":"2025-04-05T17:53:06.846Z"}
+info: Using fallback data due to API limits {"timestamp":"2025-04-05T17:57:44.873Z"}
+warn: Some documents already exist {"timestamp":"2025-04-05T17:57:46.241Z"}
+info: Using fallback data due to API limits {"timestamp":"2025-04-05T17:58:03.432Z"}
+warn: Some documents already exist {"timestamp":"2025-04-05T17:58:03.584Z"}
+info: Running scheduled job: Fetching LeetCode content {"timestamp":"2025-04-05T18:00:00.989Z"}
+info: Fetching LeetCode content {"timestamp":"2025-04-05T18:00:00.994Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/995353/doordash-amazon-facebook-google-twitter-linkedin-interview-experience {"timestamp":"2025-04-05T18:00:04.812Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1413900/google-india-software-engineer-l4-reject {"timestamp":"2025-04-05T18:00:04.935Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/5584385/Google-interview-experience-or-L4-Software-engineer-or-All-rounds/ {"timestamp":"2025-04-05T18:00:04.938Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/1539653/google-early-career-software-engineer-onsite-rejected {"timestamp":"2025-04-05T18:00:05.059Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/787119/125-days-of-google-interview-software-engineer-l4-accepted-india {"timestamp":"2025-04-05T18:00:05.314Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/6225823 {"timestamp":"2025-04-05T18:00:05.317Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1116277/GoogleorSoftware-Engineeror-Pittsburghor-Jan-2019-Reject {"timestamp":"2025-04-05T18:00:05.334Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1772277/google-swe-new-grad-rejected {"timestamp":"2025-04-05T18:00:07.262Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/5705042/An-open-letter-to-Google!!-Dear-Sundar-Pichai...../ {"timestamp":"2025-04-05T18:00:12.190Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/4271223/Google-Interview-Round-1 {"timestamp":"2025-04-05T18:00:14.388Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/974067/nda-microsoft-amazon-senior-software-engineer-embedded-software-india-offers {"timestamp":"2025-04-05T18:00:19.021Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/995353/doordash-amazon-facebook-google-twitter-linkedin-interview-experience {"timestamp":"2025-04-05T18:00:21.909Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/5142688/Hardships-of-being-a-FAANG-engineer/ {"timestamp":"2025-04-05T18:00:31.967Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/1528244/amazon-software-engineer-phone-interview {"timestamp":"2025-04-05T18:00:32.761Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/2054939/amazon-sde-canada-jun-2021 {"timestamp":"2025-04-05T18:00:33.492Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1242231/rejections-to-multiple-offers-journey-experience-advice/ {"timestamp":"2025-04-05T18:00:34.120Z"}
+info: Content already exists: https://leetcode.com/discuss/general-discussion/474614/amazon-phone-interview-for-junior-software-engineer-position {"timestamp":"2025-04-05T18:00:34.124Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/529807/Senior-Software-Engineer-Amazon-Alexa-or-Online-Interview {"timestamp":"2025-04-05T18:00:34.371Z"}
+info: Content already exists: https://leetcode.com/discuss/explore/amazon/1090358/amazon-software-engineer-technical-phone-interview-help {"timestamp":"2025-04-05T18:00:37.399Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/2010484/Amazon-or-SDE1L4-or-Virtual-Onsite-or-Offer {"timestamp":"2025-04-05T18:00:37.623Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/995353/doordash-amazon-facebook-google-twitter-linkedin-interview-experience {"timestamp":"2025-04-05T18:00:48.052Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/862863/facebook-e5-usa-sep-22-reject-advice-needed-to-crack-fb-interviews {"timestamp":"2025-04-05T18:00:48.054Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1129797/Facebook-E5-Interview-Preparation-JourneyStrategy-or-Offer-Accepted {"timestamp":"2025-04-05T18:00:48.056Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/605453/facebook-se-phone-interview-reject {"timestamp":"2025-04-05T18:00:48.058Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/568131/facebook-software-engineer-phone-interview-questions {"timestamp":"2025-04-05T18:00:48.060Z"}
+info: Content already exists: https://leetcode.com/discuss/general-discussion/188808/4-weeks-to-prepare-for-fb-swe-interview-what-do-you-recommend {"timestamp":"2025-04-05T18:00:48.062Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/1071451/facebook-london-software-engineer-intern-phone-interview-questions {"timestamp":"2025-04-05T18:00:48.064Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/1401906/facebook-interview-question-software-engineer {"timestamp":"2025-04-05T18:00:48.066Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/1898952/embedded-software-engineer-interview-new-grad-meta-facebook {"timestamp":"2025-04-05T18:00:48.068Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/528182/facebook-l3l4-went-well-but-got-rejected-please-help-autopsy {"timestamp":"2025-04-05T18:00:48.070Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/6387142/Microsoft-Software-Engineer-Screening-Round-Interview-Experience/ {"timestamp":"2025-04-05T18:00:49.833Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/974067/nda-microsoft-amazon-senior-software-engineer-embedded-software-india-offers {"timestamp":"2025-04-05T18:00:49.835Z"}
+info: Content already exists: https://leetcode.com/discuss/explore/microsoft/2005827/Software-Engineer-III-interview-Atlanta-Location-(accepted)/ {"timestamp":"2025-04-05T18:00:49.840Z"}
+info: Content already exists: https://leetcode.com/discuss/general-discussion/330502/upcoming-microsoft-software-engineer-phone-interview {"timestamp":"2025-04-05T18:00:49.842Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-question/134884/microsoft-software-engineer-intern-interview-question {"timestamp":"2025-04-05T18:00:49.844Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/2066918/Microsoft-or-Senior-Software-Engineer-or-April-2022-or-Offer-(Accepted) {"timestamp":"2025-04-05T18:00:49.848Z"}
+info: Content already exists: https://leetcode.com/discuss/general-discussion/497052/onsite-interview-for-software-engineering-role-for-microsoft-networking {"timestamp":"2025-04-05T18:00:49.850Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/179116/senior-software-engineer-microsoft-raleigh-nc {"timestamp":"2025-04-05T18:00:49.853Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1173076/microsoft-senior-software-engineer-india {"timestamp":"2025-04-05T18:00:49.859Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/1769843/microsoft-seniorprincipal-software-engineer-hyderabad-india-dec21reject {"timestamp":"2025-04-05T18:00:49.861Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/6328954/Compensation-Expectations-for-DocuSign-(Software-Engineer-P2-Level)/ {"timestamp":"2025-04-05T18:00:50.563Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/6464031/DocuSign-Compensation-or-Software-Engineer-or-Bangalore-India/ {"timestamp":"2025-04-05T18:00:50.566Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/5124512/Autodesk-Senior-Software-Engineer {"timestamp":"2025-04-05T18:00:50.568Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/3324458/OpenText-oror-Software-Engineer-oror-Bangalore {"timestamp":"2025-04-05T18:00:50.570Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/5369390/Tekion-or-Software-Engineer-1-or-Bangalore/ {"timestamp":"2025-04-05T18:00:50.573Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/1991811/sukiai-software-engineer-3-bangalore-apr-2022 {"timestamp":"2025-04-05T18:00:50.576Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/5124525/Tala-Senior-Software-Engineer {"timestamp":"2025-04-05T18:00:50.579Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/4527234/Coda-Payments-Bangkok-Staff-Software-Engineer/ {"timestamp":"2025-04-05T18:00:50.581Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/1930385/alteryx-software-engineer-bengaluru-feb-2022 {"timestamp":"2025-04-05T18:00:50.583Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/5197507/Spotnana-or-Senior-Software-Engineer-or-Bengaluru/ {"timestamp":"2025-04-05T18:00:50.586Z"}
+info: Content already exists: https://leetcode.com/discuss/general-discussion/1294961/offer-negotiation-what-if-you-lie-about-your-offers {"timestamp":"2025-04-05T18:00:50.849Z"}
+info: Content already exists: https://leetcode.com/discuss/general-discussion/457145/job-offer-negotiation {"timestamp":"2025-04-05T18:00:50.852Z"}
+info: Content already exists: https://leetcode.com/discuss/career/1855619/offer-negotiation-help {"timestamp":"2025-04-05T18:00:50.855Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/1185086/best-resources-for-offer-negotiation {"timestamp":"2025-04-05T18:00:50.858Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/1242817/walmart-in3-sde-3-bangalore-offer-negotiation-help {"timestamp":"2025-04-05T18:00:50.860Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/5337839/Need-Help-in-Offer-Negotiation-and-Choosing!!!!/ {"timestamp":"2025-04-05T18:00:50.863Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/3636215/Salary-expectation-or-Offer-Negotiation {"timestamp":"2025-04-05T18:00:50.865Z"}
+info: Content already exists: https://leetcode.com/discuss/career/1269475/help-regarding-rapido-offer-negotiation {"timestamp":"2025-04-05T18:00:50.868Z"}
+info: Content already exists: https://leetcode.com/discuss/compensation/6352275/Salesforce-vs-Intuit-or-Offer-Negotiation-or-Offer-Evaluation/ {"timestamp":"2025-04-05T18:00:50.871Z"}
+info: Content already exists: https://leetcode.com/discuss/interview-experience/821879/3-offers-amazon-l6-facebook-e5-apple-ict4-seattle-full-stack {"timestamp":"2025-04-05T18:00:50.873Z"}
+info: LeetCode content fetching completed {"timestamp":"2025-04-05T18:00:50.874Z"}
